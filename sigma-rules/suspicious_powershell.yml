@@ -1,0 +1,18 @@
+title: Suspicious PowerShell DownloadString
+id: 4b4d5d58-0f55-4a8a-9d0a-0a4f11b1a0aa
+status: experimental
+description: Detects PowerShell usage of DownloadString which may indicate script-based malware
+author: You
+date: 2025/09/27
+logsource:
+  product: windows
+  service: powershell
+detection:
+  selection:
+    Message|contains:
+      - "System.Net.WebClient"
+      - "DownloadString"
+  condition: selection
+level: medium
+tags:
+  - attack.t1059.001

@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+
+# Jupyter / Streamlit
+.ipynb_checkpoints/
+.streamlit/
+
+# OS junk
+.DS_Store
+Thumbs.db
