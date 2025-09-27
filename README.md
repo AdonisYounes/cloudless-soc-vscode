@@ -2,6 +2,8 @@
 
 A Python/Streamlit web app that ingests authentication logs, finds bursty failed-logon activity with a sliding window, and shows results in a clean dashboard.
 
+**Live demo:** https://cloudless-soc-vscode-nb6bcqtwfypbzerkzjh7we.streamlit.app/
+
 ![Demo](demo.gif)
 
 ---
