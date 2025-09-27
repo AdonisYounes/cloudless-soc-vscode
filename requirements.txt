@@ -2,3 +2,6 @@ pandas
 matplotlib
 pyyaml
 ipykernel
+streamlit
+plotly
+kaleido  # only if you want to export Plotly charts as PNGs
